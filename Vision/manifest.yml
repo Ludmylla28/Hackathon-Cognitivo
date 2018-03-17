@@ -1,13 +1,13 @@
 ---
 declared-services:
   visual-recognition-service:
-    label: watson_vision_combined
+    label: visual-teste-service
     plan: free
 applications:
-- name: visual-recognition-Teste
+- name: visual-teste
   path: .
   command: npm start
-  memory: 256M
+  memory: 64M
   services:
   - visual-recognition-service
   env:
