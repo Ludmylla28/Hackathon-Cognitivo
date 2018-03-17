@@ -9,6 +9,6 @@ applications:
   command: npm start
   memory: 64M
   services:
-  - visual-recognition-service
+  - visual-teste-service
   env:
     NODE_ENV: production

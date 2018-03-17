@@ -1,11 +1,11 @@
 declared-services:
   language-translator-service:
-    label: language_translator
+    label: language-translator-service
     plan: lite
 applications:
 - services:
-  - language-translator-service
-  name: language-translator-Brincando
+  - language-teste-service
+  name: language-teste
   command: npm start
   path: .
-  memory: 126M
+  memory: 64M
